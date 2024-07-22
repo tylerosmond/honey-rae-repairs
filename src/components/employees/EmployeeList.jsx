@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-key */
 import { useEffect, useState } from "react";
-import { getStaffUsers } from "../../services/UserService";
 import { Link } from "react-router-dom";
 import { User } from "../../users/User";
 import "./Employees.css";
+import { getStaffUsers } from "../../services/UserService";
 
 export const EmployeeList = () => {
   const [employees, setEmployee] = useState([]);
